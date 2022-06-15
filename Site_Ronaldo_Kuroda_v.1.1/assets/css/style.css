@@ -1,6 +1,6 @@
 /* zera toda margen(margin) e  preenchimento(padding) da pagina*/
 
-body{
+*{
     margin: 0;
     padding: 0;
     background-color: #684949;
@@ -60,22 +60,24 @@ header{
     width: 10%;
     border: 2px solid #f2d2bf;
     margin-top: 20px;
-    background-color: #684949;
 }
 
 .btn_download a{
     text-decoration: none;
     list-style-type: none;
     color: #f2d2bf;
+    border: 1px solid #f2d2bf;
 }
 
-button:hover{
-	background-color: #f2d2bf;
-}
-
-button:hover a{
+.btn_download a:hover{
     color: #684949;
+    background-color: #f2d2bf;
 }
+
+.btn_download:hover{
+    background-color: #f2d2bf;
+}
+
 /*-----------------FONTES----------------------*/
 
 .fonte1{
@@ -199,7 +201,7 @@ button:hover a{
     .nome_profissao{
         height: 60px;
         padding-left: 20px;
-        padding-top: 270px;
+        padding-top: 160px;
     }
 
     .btn_download{
