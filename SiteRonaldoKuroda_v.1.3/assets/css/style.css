@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Poiret+One&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #684949 0%, #c49191 100%);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    background-image: linear-gradient(to top, #c49191 0%, #684949 100%);
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    align-self: center;
+}
+
+.menu a{
+    margin-right: 80px;
+}
+
+.nome_profissao{
+    display: flex;
+    flex-direction: column;
+    padding-top: 23%;
+    padding-left: 30%;
+}
+
+.apresentacao{
+    display: flex;
+    text-align: justify;
+    max-width: 54%;
+}
+
+.btn_download{
+    border-radius: 5%;
+    width: 14%;
+    background-color: transparent;
+    border:  2px solid #f2d2bf;
+}
+
+.btn_download:hover{
+    background-color: #c49191;
+    color: #684949;
+}
+
+.fonte1{
+    font-size: 20pt;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: #f2d2bf;
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Poiret One', cursive;
+}
+
+.fonte2{
+    font-size: 45pt;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Poiret One', cursive;
+    color: #f2d2bf;
+}
+
+.fonte3{
+    font-size: 25pt;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Poiret One', cursive;
+    color: #f2d2bf;
+}
+
+.text_list_none{
+    color: #f2d2bf;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.text_list_none:hover{
+    color: #c49191;
+}
+
+.zera_margin_padding{
+    margin: 1%;
+    padding: 0;
+}
+
+.about{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 400px;
+    text-align: justify;
+    padding-top: 18%;
+
+}
+
+.texto{
+    line-height: 1cm;
+}
+
+.foto{
+    border-radius: 50px;
+    max-height: 250px;
+    max-width: 250px;
+    border: 2px solid #f2d2bf;
+    margin-right: 30px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    align-items: center;
+    margin-top: 55%;
+    margin-bottom: 22%;
+    
+}
+
+.contatos1{
+    display: flex;
+    flex-direction: row;
+}
+
+.icone{
+    height: 150px;
+    width: 150px;  
+}
+
+.contact{
+    margin-top: 2%;
+    
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    justify-content: space-around;
+    padding-bottom: 0,8%;
+    padding-top: 0,8%;
+    background-image: linear-gradient(to top, #c49191 0%, #684949 100%);
+}
+
+
+@media(max-width: 992px){
+    
+    header{
+        height: 20%;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .menu{
+        display: flex;
+        width: 100%;
+        padding-left: 50%;
+        flex-direction: column;
+        /*  background-color: #684949; */
+        align-self: center;
+    }
+
+    .menu a{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .nome_profissao{
+        height: 60px;
+        padding-left: 20px;
+        padding-top: 305px;
+    }
+
+    .btn_download{
+        height: 80%;
+        width: 30%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 450px;
+        padding-top: 36%;
+    }
+
+    .foto{
+        margin-bottom: 50px;
+    }
+
+    .apresentacao{
+        display: flex;
+        max-width: 70%;
+        text-align: justify;
+    }
+
+    .fonte2{
+        font-size: 30pt;
+    }
+
+    .fonte3{
+        font-size: 15pt;
+    }
+
+    .contatos{
+        margin-top: 90%;
+        margin-bottom: 40%;
+    }
+
+    .contatos1{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icone{
+        height: 70px;
+        width: 70px;  
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13pt;
+    }
+
+
+}
